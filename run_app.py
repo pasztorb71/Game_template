@@ -1,12 +1,13 @@
 import os
-import pygame
+
+import pygame as pygame
 
 from background import Background
 from knight import Knight
 
 class App(object):
-    sizeFaktorX = 1.5
-    sizeFaktorY = 1.5
+    sizeFaktorX = 1
+    sizeFaktorY = 1
     windowWidth = 800
     windowHeight = 768
     W, H = int(windowWidth / sizeFaktorX), int(windowHeight / sizeFaktorY)
